@@ -33,6 +33,7 @@ product_pitched           = st.selectbox("Product Pitched", [0, 1, 2, 3, 4])
 
 if st.button("Predict"):
     input_data = pd.DataFrame([{
+        'Unnamed: 0': 0,                                      
         'Age': age,
         'CityTier': city_tier,
         'DurationOfPitch': duration_of_pitch,
@@ -53,26 +54,9 @@ if st.button("Predict"):
         'ProductPitched': product_pitched,
     }])
 
-    # Auto-match to exact columns the model was trained on
-    try:
-        model_features = model[:-1].get_feature_names_out()
-    except Exception:
-        model_features = None
+    prediction = model.predict(input_data)[0]
 
-    if model_features is None:
-        # Add any missing columns the model expects with default value 0
-        try:
-            model.predict(input_data)  # test first
-        except ValueError as e:
-            missing = str(e).split("{'")[1].split("'}")[0].split("', '")
-            for col in missing:
-                input_data[col] = 0
-
-    try:
-        prediction = model.predict(input_data)[0]
-        if prediction == 1:
-            st.success("✅ Customer WILL purchase the Wellness Package!")
-        else:
-            st.error("❌ Customer will NOT purchase the Wellness Package.")
-    except Exception as e:
-        st.error(f"Prediction error: {e}")
+    if prediction == 1:
+        st.success("✅ Customer WILL purchase the Wellness Package!")
+    else:
+        st.error("❌ Customer will NOT purchase the Wellness Package.")
