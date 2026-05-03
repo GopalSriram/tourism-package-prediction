@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/792366744057358872/c867fc60808e48c0acd16da9c66bf98e/artifacts
+end_time: 1777824548375
+entry_point_name: ''
+experiment_id: '792366744057358872'
+lifecycle_stage: active
+run_id: c867fc60808e48c0acd16da9c66bf98e
+run_name: crawling-swan-493
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1777824548324
+status: 3
+tags: []
+user_id: root

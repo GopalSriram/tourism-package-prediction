@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/792366744057358872/8f4a02bc9b354530801c18ebfe153cc0/artifacts
+end_time: 1777824548817
+entry_point_name: ''
+experiment_id: '792366744057358872'
+lifecycle_stage: active
+run_id: 8f4a02bc9b354530801c18ebfe153cc0
+run_name: capricious-calf-212
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1777824548768
+status: 3
+tags: []
+user_id: root

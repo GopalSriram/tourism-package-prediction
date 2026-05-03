@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/792366744057358872/f6b5c488115d463fb8ff8696cd73db14/artifacts
+end_time: 1777824548509
+entry_point_name: ''
+experiment_id: '792366744057358872'
+lifecycle_stage: active
+run_id: f6b5c488115d463fb8ff8696cd73db14
+run_name: shivering-sheep-644
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1777824548456
+status: 3
+tags: []
+user_id: root

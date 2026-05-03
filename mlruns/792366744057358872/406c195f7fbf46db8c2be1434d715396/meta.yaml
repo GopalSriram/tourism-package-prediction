@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/792366744057358872/406c195f7fbf46db8c2be1434d715396/artifacts
+end_time: 1777824548635
+entry_point_name: ''
+experiment_id: '792366744057358872'
+lifecycle_stage: active
+run_id: 406c195f7fbf46db8c2be1434d715396
+run_name: bemused-moose-214
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1777824548585
+status: 3
+tags: []
+user_id: root

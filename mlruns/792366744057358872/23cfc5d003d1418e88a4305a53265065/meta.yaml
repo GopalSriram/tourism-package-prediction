@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/792366744057358872/23cfc5d003d1418e88a4305a53265065/artifacts
+end_time: 1777824548113
+entry_point_name: ''
+experiment_id: '792366744057358872'
+lifecycle_stage: active
+run_id: 23cfc5d003d1418e88a4305a53265065
+run_name: casual-moose-433
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1777824548060
+status: 3
+tags: []
+user_id: root

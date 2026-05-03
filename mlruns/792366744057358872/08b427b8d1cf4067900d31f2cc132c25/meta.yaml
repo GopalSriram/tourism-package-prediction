@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/792366744057358872/08b427b8d1cf4067900d31f2cc132c25/artifacts
+end_time: 1777824548443
+entry_point_name: ''
+experiment_id: '792366744057358872'
+lifecycle_stage: active
+run_id: 08b427b8d1cf4067900d31f2cc132c25
+run_name: brawny-deer-731
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1777824548388
+status: 3
+tags: []
+user_id: root

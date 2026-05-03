@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/792366744057358872/4bc0040467e94cdab02475ef2658aeac/artifacts
+end_time: 1777824548185
+entry_point_name: ''
+experiment_id: '792366744057358872'
+lifecycle_stage: active
+run_id: 4bc0040467e94cdab02475ef2658aeac
+run_name: fortunate-lark-23
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1777824548125
+status: 3
+tags: []
+user_id: root

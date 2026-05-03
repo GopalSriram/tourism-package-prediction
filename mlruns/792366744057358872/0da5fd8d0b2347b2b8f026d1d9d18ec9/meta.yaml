@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/792366744057358872/0da5fd8d0b2347b2b8f026d1d9d18ec9/artifacts
+end_time: 1777824555272
+entry_point_name: ''
+experiment_id: '792366744057358872'
+lifecycle_stage: active
+run_id: 0da5fd8d0b2347b2b8f026d1d9d18ec9
+run_name: amusing-loon-532
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1777824529861
+status: 3
+tags: []
+user_id: root
